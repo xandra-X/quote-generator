@@ -2,7 +2,7 @@
 
 Welcome to my **Quote Generator** — my very first portfolio project! This simple web app randomly displays quotes with their authors and lets users easily share their favorite quotes on Twitter. It’s built using HTML, CSS, and JavaScript.
 
-![Quote Generator Screenshot](./screenshot.png) <!-- Replace or delete if not using -->
+![Quote Generator Screenshot](./quote.png) <!-- Replace or delete if not using -->
 
 ## 🚀 Features
 
