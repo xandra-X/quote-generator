@@ -13,7 +13,7 @@ Welcome to my **Quote Generator** — my very first portfolio project! This simp
 
 ## 🌐 Live Demo
 
-👉 [View the live demo](https://xanshock.github.io/quote-generator/)  
+👉 [View the live demo](https://xandra-X.github.io/quote-generator/)  
 
 ## 🛠 Built With
 
@@ -26,4 +26,4 @@ Welcome to my **Quote Generator** — my very first portfolio project! This simp
 
 1. Clone the repo:
    ```bash
-   git clone https://xanshock.github.io/quote-generator/
+   git clone https://xandra-X.github.io/quote-generator/
