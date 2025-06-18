@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #9bafd9,
+    #7990c4,
+    #5971af,
+    #395399,
+    #103783
+  );
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  margin: 30px;
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px 20px 30px;
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(71, 71, 71, 0.15);
+}
+
+.quote-text {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+.quote-author {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(23, 31, 77);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgb(153, 153, 153);
+}
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgb(105, 105, 105);
+}
+button:hover {
+  filter: brightness(110%);
+}
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgb(105, 105, 105);
+}
+.twitter-btn:hover {
+  color: rgb(53, 100, 255);
+}
+.fa-twitter {
+  font-size: 1.5rem;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #203847;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .quote-container {
+    margin: 20px;
+  }
+  .quote-text {
+    font-size: 2.5rem;
+  }
+}
