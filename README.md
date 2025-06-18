@@ -14,7 +14,6 @@ Welcome to my **Quote Generator** — my very first portfolio project! This simp
 ## 🌐 Live Demo
 
 👉 [View the live demo](https://xanshock.github.io/quote-generator/)  
-*(Replace with your actual GitHub Pages link)*
 
 ## 🛠 Built With
 
@@ -27,4 +26,4 @@ Welcome to my **Quote Generator** — my very first portfolio project! This simp
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/quote-generator.git
+   git clone https://xanshock.github.io/quote-generator/
