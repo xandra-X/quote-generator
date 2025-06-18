@@ -65,7 +65,7 @@ button {
   background-color: rgb(23, 31, 77);
   outline: none;
   padding: 0.5rem 1.8rem;
-  box-shadow: 0 0.3rem rgb(153, 153, 153);
+  box-shadow: 0 0.3rem rgb(181, 181, 181);
 }
 button:active {
   transform: translate(0, 0.3rem);
@@ -108,6 +108,6 @@ button:active {
     margin: 20px;
   }
   .quote-text {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 }
